@@ -1,0 +1,14 @@
+{
+  "name": "stringcalc-typescript",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "^26.0.20",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.3",
+    "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "test": "(jest 2>&1 | tee -a test_results.log) && date >> test_results.log && echo \"\" >> test_results.log"
+  }
+}
